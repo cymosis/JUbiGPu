@@ -12,7 +12,7 @@ def display_jcare_options():
     # Display buttons if none have been clicked
     if st.session_state.button_clicked is None:
         with col1:
-            if st.button('Would you like to buy a J Care policy?'):
+            if st.button('Would you like to proceed to buy a J Care policy and get a policy number in 5 mins!!!?'):
                 st.session_state.button_clicked = 'button1'
                 # HTML and JavaScript to open a new tab
                 components.html("""
