@@ -11,7 +11,7 @@ def display_jcare_options():
     
     with col2:
         if st.button('Would you like to continue?'):
-            st.write("Continuing with the current options...")
+            st.write("https://jubileeinsurance.com/ke/product/j-care-medical-cover/")
             # Implement logic for continuing here
 
 # Streamlit app code
