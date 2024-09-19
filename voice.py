@@ -16,6 +16,6 @@ def display_jcare_options():
 
 # Streamlit app code
 st.title('Welcome to Jubilee GPT')
-
-# Display buttons directly without any input field
-display_jcare_options()
+message="The products that fit your description are J Care, J care Johari and J care senior"
+if "J care" in message:
+    display_jcare_options()
