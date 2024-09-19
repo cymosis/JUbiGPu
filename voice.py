@@ -6,8 +6,12 @@ def display_jcare_options():
     
     with col1:
         if st.button('Would you like to buy a J Care policy?'):
-            st.write("https://jubileeinsurance.com/ke/product/j-care-medical-cover/")
-    
+            #st.write("https://jubileeinsurance.com/ke/product/j-care-medical-cover/")
+            components.html("""
+                <script>
+                    window.open('https://jubileeinsurance.com/ke/product/j-care-medical-cover/', '_blank');
+                </script>
+            """)    
     with col2:
         if st.button('Would you like to continue?'):
             st.text_input("Let's continue!")
