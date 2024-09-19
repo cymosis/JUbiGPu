@@ -9,7 +9,7 @@ def display_jcare_options():
             #st.write("https://jubileeinsurance.com/ke/product/j-care-medical-cover/")
             components.html("""
                 <script>
-                    window.open('https://jubileeinsurance.com/ke/product/j-care-medical-cover/', '_blank');
+                    window.open('https://jubileeinsurance.com/ke/product/j-care-medical-cover/');
                 </script>
             """)    
     with col2:
