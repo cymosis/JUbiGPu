@@ -6,13 +6,11 @@ def display_jcare_options():
     
     with col1:
         if st.button('Would you like to buy a J Care policy?'):
-            st.write("Redirecting to the purchase page...")
-            # Implement redirection or further logic here
+            st.write("https://jubileeinsurance.com/ke/product/j-care-medical-cover/")
     
     with col2:
         if st.button('Would you like to continue?'):
-            st.write("https://jubileeinsurance.com/ke/product/j-care-medical-cover/")
-            # Implement logic for continuing here
+            st.text_input("Let's continue!")
 
 # Streamlit app code
 st.title('Welcome to Jubilee GPT')
