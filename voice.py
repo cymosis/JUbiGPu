@@ -1,10 +1,6 @@
 import streamlit as st
 
 def display_jcare_options():
-    # Link to the J Care policy
-    jcare_link ="https://jubileeinsurance.com/ke/product/j-care-medical-cover/"
-    st.write(f"Click [here]({jcare_link}) to view the J Care policy.")
-    
     # Create a container for buttons
     col1, col2 = st.columns(2)
     
@@ -21,9 +17,5 @@ def display_jcare_options():
 # Streamlit app code
 st.title('Welcome to Jubilee GPT')
 
-# Input field for user message
-user_message = st.text_input("Enter your message:")
-
-# Check if the user message contains "J care" and display buttons if true
-if "J care" in user_message:
-    display_jcare_options()
+# Display buttons directly without any input field
+display_jcare_options()
