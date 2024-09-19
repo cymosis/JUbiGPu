@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 
 def display_jcare_options():
     # Create a container for buttons
