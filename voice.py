@@ -32,5 +32,5 @@ def display_jcare_options():
 # Streamlit app code
 st.title('Welcome to Jubilee GPT')
 message = "The products that fit your description are J Care, J Care Johari, and J Care Senior"
-if "J Care" in message:
+if "J Care " or "j care" in message:
     display_jcare_options()
